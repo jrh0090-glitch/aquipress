@@ -62,10 +62,8 @@
       color: rgba(255,255,255,0.3); letter-spacing: 0.04em;
     }
     .nav-links li a:hover .es { color: rgba(245,160,32,0.6); }
-    /* Puedo Press nav item - gold accent */
-    .nav-links li.nav-puedo a { color: var(--gold); }
-    .nav-links li.nav-puedo a .es { color: rgba(232,184,75,0.5); }
-    .nav-links li.nav-puedo a:hover { color: white; }
+
+
 
     /* ===== BUTTONS ===== */
     .btn {
@@ -447,55 +445,6 @@
     }
     .edu-banner p { color: rgba(255,255,255,0.78); margin-bottom: 1.5rem; max-width: none; }
 
-    /* ===== PUEDO PRESS ===== */
-    #puedo { background: var(--navy); color: white; }
-    #puedo h2 { color: white; }
-    #puedo .section-label { color: var(--gold); }
-
-    .puedo-spark {
-      font-size: 1.3rem; color: var(--gold);
-      display: inline-block; margin-right: 0.4rem;
-      vertical-align: middle;
-    }
-    .puedo-imprint-tag {
-      font-family: 'Fraunces', serif; font-style: italic; font-weight: 300;
-      font-size: 0.9rem; color: rgba(255,255,255,0.45);
-      margin-bottom: 3rem; display: block;
-    }
-    .puedo-grid {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: 5rem; align-items: start;
-    }
-    .puedo-left p {
-      color: rgba(255,255,255,0.82); margin-bottom: 1.25rem; max-width: 56ch;
-    }
-    .puedo-left p:last-of-type { margin-bottom: 2rem; }
-    .puedo-cards {
-      display: flex; flex-direction: column; gap: 1.25rem;
-    }
-    .puedo-card {
-      padding: 1.5rem 1.75rem;
-      background: rgba(255,255,255,0.06);
-      border-left: 4px solid var(--gold);
-    }
-    .puedo-card h4 {
-      font-family: 'Rubik', sans-serif; font-weight: 700;
-      font-size: 0.88rem; color: var(--gold); margin-bottom: 0.35rem;
-    }
-    .puedo-card p { font-size: 0.88rem; color: rgba(255,255,255,0.7); max-width: none; margin: 0; }
-    .puedo-cta {
-      margin-top: 3.5rem; padding: 2.5rem 3rem;
-      background: rgba(255,255,255,0.04);
-      border-top: 3px solid var(--gold);
-      display: flex; align-items: center; justify-content: space-between;
-      gap: 2rem; flex-wrap: wrap;
-    }
-    .puedo-cta p {
-      font-family: 'Fraunces', serif; font-style: italic;
-      font-size: 1.15rem; color: rgba(255,255,255,0.75);
-      max-width: none; margin: 0;
-    }
-
     /* ===== CONTACT ===== */
     #contact { background: var(--cream); }
     #contact .section-label { color: var(--dk-teal); }
@@ -573,7 +522,7 @@
       nav { padding: 0 1.5rem; }
       .nav-links li:nth-child(n+5) { display: none; }
       .about-grid, .sample-grid, .research-grid,
-      .contact-layout, .puedo-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .contact-layout { grid-template-columns: 1fr; gap: 2.5rem; }
       .edu-cards { grid-template-columns: 1fr; }
       .books-grid { grid-template-columns: 1fr 1fr; }
       .pillars { grid-template-columns: 1fr; }
@@ -600,7 +549,6 @@
     <li><a href="#sample"><span class="en">Format</span><span class="es">El formato</span></a></li>
     <li><a href="#research"><span class="en">Research</span><span class="es">Investigación</span></a></li>
     <li><a href="#educators"><span class="en">Educators</span><span class="es">Educadores</span></a></li>
-    <li><a href="#puedo"><span class="en">Puedo Press</span><span class="es">Nuestro imprint</span></a></li>
     <li><a href="#contact"><span class="en">Contact</span><span class="es">Contacto</span></a></li>
   </ul>
 </nav>
@@ -704,7 +652,7 @@
       <!-- Volume 1 -->
       <div class="book-card">
         <div class="book-card-cover">
-          <img src="Cover Art1.png" alt="Entre Páginas Volume 1 cover">
+          <img src="Cover_Art1.png" alt="Entre Páginas Volume 1 cover">
         </div>
         <div class="book-card-vol">Entre Páginas · Volume 1</div>
         <h3>Multicultural Stories</h3>
@@ -722,7 +670,7 @@
       <!-- Volume 2 -->
       <div class="book-card">
         <div class="book-card-cover">
-          <img src="Cover Art2.png" alt="Entre Páginas Volume 2 cover">
+          <img src="Cover_Art2.png" alt="Entre Páginas Volume 2 cover">
         </div>
         <div class="book-card-vol">Entre Páginas · Volume 2</div>
         <h3>Multicultural Stories</h3>
@@ -740,7 +688,7 @@
       <!-- Volume 3 -->
       <div class="book-card">
         <div class="book-card-cover">
-          <img src="Cover Art3.png" alt="Entre Páginas Volume 3 cover">
+          <img src="Cover_Art3.png" alt="Entre Páginas Volume 3 cover">
         </div>
         <div class="book-card-vol">Entre Páginas · Volume 3</div>
         <h3>High School Classics</h3>
@@ -952,56 +900,6 @@
 </section>
 
 
-<!-- ===== PUEDO PRESS ===== -->
-<section id="puedo">
-  <div class="container">
-    <div class="section-label">
-      <span class="lang-en">Puedo Press</span>
-      <span class="lang-es">Un imprint de Aquí Press</span>
-    </div>
-
-    <h2><span class="puedo-spark">✦</span>Students write.<br>Students publish.</h2>
-    <span class="puedo-imprint-tag">An Aquí Press Imprint, Est. 2026</span>
-
-    <div class="puedo-grid">
-
-      <div class="puedo-left">
-        <p><em>Puedo</em> means "I can." That's the whole idea.</p>
-        <p>Puedo Press is a student publishing imprint founded under Aquí Press at a Huntsville, Alabama high school. It's a voluntary, after-school program for 9th–12th grade students who want to learn what publishing actually looks like: from first draft to printed book.</p>
-        <p>This is not a class. There are no grades. Students who publish under Puedo Press hold their own rights and receive their own royalties. Aquí Press teaches them, then lets them go.</p>
-        <a href="#contact" class="btn btn-gold">Get in Touch About Puedo Press →</a>
-      </div>
-
-      <div class="puedo-cards">
-        <div class="puedo-card">
-          <h4>✦ Real Publishing</h4>
-          <p>Students don't simulate the publishing process; they do it. Print-on-demand books with real ISBNs, real covers, and real readers.</p>
-        </div>
-        <div class="puedo-card">
-          <h4>✦ Tu historia, tus derechos</h4>
-          <p>Student authors keep their rights and receive royalties directly. Aquí Press teaches the industry; students own the work.</p>
-        </div>
-        <div class="puedo-card">
-          <h4>✦ Financial Transparency</h4>
-          <p>Students see real sales numbers and real financials, including the reality that community work has value even when it doesn't earn money.</p>
-        </div>
-        <div class="puedo-card">
-          <h4>✦ Multilingual from the Start</h4>
-          <p>Puedo Press publications reflect the languages and voices of the students who make them. Monolingual is not the default.</p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="puedo-cta">
-      <p>"<em>Puedo</em>": I can write. I can publish. I can put my story in someone else's hands.</p>
-      <a href="#contact" class="btn btn-gold">Get in Touch →</a>
-    </div>
-
-  </div>
-</section>
-
-
 <!-- ===== CONTACT ===== -->
 <section id="contact">
   <div class="container">
@@ -1023,19 +921,6 @@
           <div class="dot" style="background:var(--teal);"></div>
           <p>Sample requests / Solicitudes de muestra</p>
         </div>
-        <div class="contact-detail">
-          <div class="dot" style="background:var(--gold);"></div>
-          <p>Puedo Press & student program inquiries</p>
-        </div>
-        <div class="contact-detail">
-          <div class="dot" style="background:var(--purple);"></div>
-          <p>Press & media / Prensa & medios</p>
-        </div>
-        <div class="contact-detail">
-          <div class="dot" style="background:var(--orange);"></div>
-          <p>General questions / Preguntas generales</p>
-        </div>
-      </div>
 
       <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact">
@@ -1058,7 +943,6 @@
             <option value="reader">Lector/a / Reader</option>
             <option value="student">Estudiante / Student</option>
             <option value="press">Prensa / Press &amp; Media</option>
-            <option value="puedo">Interesado en Puedo Press / Interested in Puedo Press</option>
             <option value="other">Otro / Other</option>
           </select>
         </div>
@@ -1091,9 +975,6 @@
       <img src="aquiside.png" style="height:32px;width:auto;margin-bottom:0.6rem;" alt="Aquí Press">
       <div class="footer-tag-es">Para lectores que están aquí.</div>
       <div class="footer-tag-en">For readers who are here.</div>
-      <a href="#puedo" class="footer-imprint-link">
-        <span>✦</span> Puedo Press, An Aquí Press Imprint
-      </a>
     </div>
     <p style="text-align:right;">
       © 2026 Aquí Press<br>
